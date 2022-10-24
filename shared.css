@@ -2,6 +2,7 @@ body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
 }
+
 #page-logo a {
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
@@ -21,6 +22,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 header ul {
@@ -28,4 +32,16 @@ header ul {
 }
 header li {
   margin: 20px;
+}
+li a {
+  color: rgb(255, 238, 0);
+  font-size: 20px;
+  padding: 12px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(255, 238, 0);
+  color: rgb(0, 0, 0);
 }

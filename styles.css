@@ -12,7 +12,7 @@
   border-radius: 8px;
   text-align: center;
   padding: 50px 0;
-  margin: 0px auto;
+  margin: 0 auto;
   position: relative;
   top: 200px;
 }
@@ -43,4 +43,17 @@
 #hero-content a:hover {
   background-color: rgb(255, 238, 0);
   text-decoration: underline;
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+}
+#destinations {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
 }
