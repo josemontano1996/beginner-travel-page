@@ -17,6 +17,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -33,7 +34,7 @@ header ul {
 header li {
   margin: 20px;
 }
-li a {
+header a {
   color: rgb(255, 238, 0);
   font-size: 20px;
   padding: 12px;
